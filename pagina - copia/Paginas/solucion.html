@@ -34,7 +34,10 @@
                             La problemática de los semáforos surge principalmente debido a sistemas desactualizados que carecen de eficiencia en el manejo del flujo vehicular y no se adaptan a las necesidades cambiantes del tráfico en tiempo real. Esto genera congestionamientos, aumenta los tiempos de espera y contribuye al estrés de los conductores.
                             La solución que planteamos combina un enfoque basado en código optimizado y la implementación de nueva tecnología para transformar el funcionamiento de los semáforos. Por un lado, se desarrolló un software más eficiente que analiza patrones de tráfico en tiempo real, minimizando el uso de recursos computacionales mientras maximiza la velocidad de respuesta del sistema. Por otro lado, se introdujeron sensores inteligentes que recopilan datos del entorno, como densidad vehicular, peatones y condiciones climáticas.
 
-                            Los semaforos trabajan con C++, nos enfocamos en esto y planteamos la solución en este lenguaje
+                            Los semaforos trabajan con C++, nos enfocamos en esto y planteamos la solución en este lenguaje <br><br>
+                            Cada vez que se detecta que es un vehiculo, las dos variables booleanas "verde" y "sensor" se vuelven verdaderas, luego se comprueba los estados
+                            de éstas y cambia de color a verde el semaforo. Si no llega a ser esto, se comprueba de nuevo en el <i>if</i> para luego ponerse en amarillo y ya lo último como no es una
+                            ni dos, el semaforo se pone en rojo cuando pasa los tiempos de espera de los vehiculos.
                         </p>
                     </div>
                     <div class="code">
@@ -45,15 +48,29 @@
 
     void optimizar(){
        int tiempoEspera
-       bool sensor;
+       bool sensor, verde;
        string color = ["verde", "amarillo", "rojo"];
+       string vehiculo;
 
-       sensor = true;
+       sensor = false;
+       verde = false;
+
+       tiempoEspera = 120;
+
+       if(vehiculo == "vehiculo"){
+          verde = true;
+          sensor = true;
+       }
 
        if(sensor == true && verde == true){
-          color = "Verde";
+          color = "verde";
+          tiempoEspera = 60;
        } if else(sensor == true && verde == false && color != rojo){
-        
+          color = "amarillo"
+          tiempoEspera = 60;
+       } else {
+          color = "rojo"
+          tiempoEspera = 120;
        }
 
     }
