@@ -93,7 +93,7 @@ nav a:hover, nav ul li a.active{
 }
 
 .main img {
-    max-width: 50%; 
+    max-width: 100%; 
     height: auto; 
     border-radius: 5px; 
     border: 2px solid #862f2f; 

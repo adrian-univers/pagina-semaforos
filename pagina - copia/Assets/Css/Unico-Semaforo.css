@@ -60,16 +60,16 @@ nav a:hover, nav ul li a.active{
 }
 
 .main {
-    color:white;
+    color:rgb(255, 255, 255);
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9; 
-    border: 1px solid #ddd; 
+    background-color: #201d1d; 
+    border: 0px solid #ddd; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     font-family: Arial, sans-serif; 
@@ -81,13 +81,13 @@ nav a:hover, nav ul li a.active{
 
 .main h2 {
     font-size: 20px; 
-    color: #333;
+    color: #c0191970;
     margin-bottom: 10px;
 }
 
 .main p {
     font-size: 15px; 
-    color: #555; 
+    color: #ffffff99; 
     line-height: 1.5; 
     margin-bottom: 20px;
 }
@@ -96,13 +96,24 @@ nav a:hover, nav ul li a.active{
     max-width: 100%; 
     height: auto; 
     border-radius: 5px; 
-    border: 2px solid #ccc; 
+    border: 2px solid #862f2f; 
     transition: transform 0.3s ease; 
 }
 
 .main img:hover {
     transform: scale(1.05); 
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    min-height: 1px; 
+    overflow-y: scroll
+}
+
 
 
 
