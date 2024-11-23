@@ -89,3 +89,10 @@ nav a:hover, nav ul li a.active{
     padding: 15px;
     font-size:30px;
 }
+
+.audio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
