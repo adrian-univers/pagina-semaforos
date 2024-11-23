@@ -231,15 +231,6 @@ span{
     21%, 40%{
         content: "EL MAS PARCHADO";
     }
-    41%, 60%{
-        content: "EL QUE ELLA AMA";
-    }
-    61%, 80%{
-        content: " GAY";
-    }
-    81%, 100%{
-        content: " RE GAY ";
-    }
 }
 
 @media (max-width: 1000px){
