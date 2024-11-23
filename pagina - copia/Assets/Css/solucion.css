@@ -76,7 +76,7 @@ nav a:hover, nav ul li a.active{
 .solution {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* Espacio entre texto y código */
+    gap: 20px; 
     margin-top: 20px;
 }
 
