@@ -103,3 +103,7 @@ pre {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
 }
+
+.main p {
+    margin-left:20px;
+}
