@@ -231,8 +231,6 @@ span{
     21%, 40%{
         content: "EL MAS PARCHADO";
     }
-    41%, 60%{
-    }
 }
 
 @media (max-width: 1000px){
