@@ -8,7 +8,8 @@
 body, html {
     height: 100%;
     margin: 0;
-    overflow: hidden; 
+    overflow: hidden;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
 }
 
 .navbar {
@@ -61,5 +62,38 @@ nav a:hover, nav ul li a.active{
     border-bottom: 3px solid #b74b4b;
 }
 
+.content {
+    display:flex;
+    align-items:center;
+    gap: 4px;
+    padding: 20px;
+}
 
 
+.content img{
+    padding:30px;
+    margin-top:0px;
+}
+
+content p {
+    max-width: 400px;
+    margin: 0;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color:white;
+}
+
+.container h2 {
+    text-align: center;
+}
